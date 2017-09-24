@@ -1,6 +1,17 @@
 # raymarching
 A raymarching renderer
 
+Usage:
+  make
+  a.out > out.ppm
+If you wish, get ppmtopng and:
+  ppmtopng out.ppm out.png
+Alternatively:
+  run.sh
+and find the image in images/
+
+Example image is included as example.png. 
+
 
 I wrote my own libraries for several things, including vector maths, to see if I could. 
 
