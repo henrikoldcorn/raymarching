@@ -1,0 +1,9 @@
+RGB sunCol = {255, 255, 70};//{1.0*255, 0.9*255, 0.7*255};
+RGB waterCol = {5, 90, 255};
+RGB earthCol = {156, 108, 53};
+RGB grassCol = {40, 100, 10};
+RGB snowCol = {255, 255, 255};  //145
+RGB skyCol = /*{0, 0, 0};/*/{10, 110, 255};
+RGB fogBlue = {128, 170, 230};
+RGB stoneGrey = {40, 40, 40};
+RGB sunsetCol = {255, 64, 25};
