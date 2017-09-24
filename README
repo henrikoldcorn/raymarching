@@ -1,0 +1,14 @@
+# raymarching
+A raymarching renderer
+
+
+I wrote my own libraries for several things, including vector maths, to see if I could. 
+
+The renderer is not particularly physically accurate, especially in the fog rendering - this really ought to be in a skycolour() function. 
+
+Much of the raymarching and rendering was written following articles written by the brilliant Inigo Quilez (iquilezles.org). 
+
+Since creating decent images requires much iteration, I set up a system to make, run, convert images and back them up. This is run.sh, 
+and uses my own ppmtopng, in its own repo. This also backs up code versions. It's not particularly efficient - proper use of 
+git would be much better - but it works. It's not too bad, ~800 past images take up about 200MB. 
+
